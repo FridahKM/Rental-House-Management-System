@@ -1,0 +1,63 @@
+﻿body {
+    background-color: aliceblue;
+}
+
+.header {
+    background-color: #ff7044;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+    text-align:center;
+}
+
+.navigation{
+    width: 100vw;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.navheader{
+    align-content:flex-start;
+    width:100vw;
+}
+
+#lblUserName {
+    width: 50%;
+    display: inline;
+    float: left;
+    padding: 6px 15px 6px 15px;
+    margin: 5px 2px 2px 10px;
+    font-size:25px;
+}
+
+.buttons{
+    padding: 4px 10px 4px 10px;
+    margin: 10px 10px 2px 20px;
+    display:inline;
+    float: right;
+}
+
+.viewTimeTable{
+    width:100vw;
+    height:70vh;
+    text-align:center;
+}
+
+#btnTimetable {
+    width: 30vw;
+    height: 5vw;
+    margin: 5px 10px 5px 10px;
+    font-size: 18px;
+}
+
+.footerdiv{
+    width:100vw;
+    height:15px;
+    border-top:1px solid black;
+    text-align:center;
+    font-size:18px;
+}

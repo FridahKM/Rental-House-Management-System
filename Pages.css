@@ -1,0 +1,43 @@
+﻿body {
+}
+
+.sidebar {
+    display: inline;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    width: 30vw;
+}
+
+.content {
+    padding-left: 10px;
+    height: auto;
+    float: left;
+    width: 60vw;
+}
+
+
+.DataViewerGrid{
+    width: 100%;
+}
+
+.Buttons{
+    width:100%;
+}
+
+.TextBoxes{
+    width:100%;
+}
+
+#pngDelete {
+    margin-left: 20%;
+}
+
+#pngEdit {
+    margin-left: 10%;
+}
+
+.Day, .Slot{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timetable Automation System", "Timetable Automation System.csproj", "{21ED612F-ECA5-4D3A-95B7-446A5509401B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21ED612F-ECA5-4D3A-95B7-446A5509401B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ED612F-ECA5-4D3A-95B7-446A5509401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ED612F-ECA5-4D3A-95B7-446A5509401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ED612F-ECA5-4D3A-95B7-446A5509401B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFFEA1E1-D734-4FC8-BF31-E18EFB8948F7}
+	EndGlobalSection
+EndGlobal

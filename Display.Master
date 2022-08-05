@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Display.master.cs" Inherits="Timetable_Automation_System.Display" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="masterDisplay.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h2 id="headerText">TIMETABLE AUTOMATION SYSTEM</h2>
+        </div>
+        <div class="navigation">
+            <ul class="navul">
+                <li class="navli"><a href="#" class="nav">Dashboard</a></li>
+                <li class="navli"><a href="Lecturers.aspx" class="nav">Lecturers</a></li>
+                <li class="navli"><a href="Program.aspx" class="nav">Programs</a></li>
+                <li class="navli"><a href="Semesters.aspx" class="nav">Semesters</a></li>
+                <li class="navli"><a href="Units.aspx" class="nav">Units</a></li>
+                <li class="navli"><a href="Rooms.aspx" class="nav">Rooms</a></li>
+                <li class="navli"><a href="Days.aspx" class="nav">Days/Timeslots</a></li>
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footerdiv">
+            <ul class="footul">
+                <li class="footli"><a href="#" class="foota">Home</a></li>
+                <li class="footli"><a href="#" class="foota">About Us</a></li>
+                <li class="footli"><a href="#" class="foota">Help</a></li>
+            </ul>
+            <p class="footerp">&copy; Copyright: 1036568 | 1036591</p>
+        </div>
+    </form>
+</body>
+</html>

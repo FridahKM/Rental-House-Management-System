@@ -1,0 +1,59 @@
+﻿body {
+    background-color: aliceblue;
+}
+
+.header {
+    background-color: #ff7044;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+}
+
+.navigation, .footerdiv{
+    text-align:center;
+    width: 100vw;
+    height: 100%;
+    border: 1px solid black;
+    margin:0px;
+}
+
+.navul,.navli {
+    text-decoration: none;
+    display: inline;
+    float: left;
+    padding: 10px 55px 10px 55px;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+.footul, .footli {
+    text-decoration: none;
+    display: inline;
+    float: left;
+    padding: 5px 150px 5px 150px;
+}
+
+.foota {
+    text-decoration: none;
+    color: black;
+}
+
+.footerp{
+    clear:both;
+    padding:2px;
+}
+
+.navbarli, .navli, .footli {
+    border: 1px solid black;
+}
+
+.footerdiv{
+    clear:both;
+}
